@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.container-contact{
+    background-color: white;
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    flex: 0 0 20%;
+}
+.active img{
+    border-radius: 50%;
+    width: 50px;
+}
+.active{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 8%;
+    border-bottom: 2px solid #e8ebe4;
+    border-right: 2px solid #e8ebe4;
+}
+.active-user{
+    display: flex;
+    align-items: center;
+}
+.datos-usuario{
+    padding-left: 5%;
+}
+.datos-usuario h2{
+    margin-bottom: 0;
+}
+.datos-usuario p{
+    margin-top: 0;
+}
+.iconos-laterales i {
+    padding: 0 5px;
+}
+button{
+    border: 0;
+    background-color: #a491d2;
+    color: white;
+    padding: 8%;
+    width: 100%;
+    margin: 10%;
+}
+.chat-btn{
+    border-bottom: 2px solid #e8ebe4;
+    border-right: 2px solid #e8ebe4;
+    display: flex;
+    justify-content: center;
+}
+.cada-chat img{
+    border-radius: 50%;
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+.container-chat{
+    background-color: #e8ebe4;
+    flex-grow: 1.5;    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card img{
+    width: 400px;
+    border-radius: 5%;
+}
