@@ -11,8 +11,7 @@ body{
     align-items: center;
     flex-direction: column;
     flex: 0 0 20%;
-    border-top: 3px solid #e8ebe4;
-    border-left: 3px solid #e8ebe4;
+    border-right: 1px solid #828485;
 }
 .active img{
     border-radius: 50%;
@@ -25,8 +24,8 @@ body{
     align-items: center;
     padding-right: 5%;
     padding-left: 8%;
-    border-bottom: 3px solid #e8ebe4;
-    border-right: 3px solid #e8ebe4;
+    border-top: 3px solid #828485;
+    border-left: 1px solid #828485;
 }
 .active-user{
     display: flex;
@@ -60,8 +59,8 @@ button{
     font-weight: lighter;
 }
 .chat-btn{
-    border-bottom: 3px solid #e8ebe4;
-    border-right: 3px solid #e8ebe4;
+    border-top: 3px solid #828485;
+    border-left: 1px solid #828485;
     display: flex;
     justify-content: center;
 }
@@ -74,8 +73,8 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 3px solid #e8ebe4;
-    border-right: 3px solid #e8ebe4;
+    border-top: 3px solid #828485;
+    border-left: 1px solid #828485;
 }
 .container-chat{
     background-color: #e8ebe4;
