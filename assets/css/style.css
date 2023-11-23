@@ -7,25 +7,25 @@ body{
 }
 .container-contact{
     background-color: white;
-    display: block;
+    display: flex;
     align-items: center;
     flex-direction: column;
     flex: 0 0 20%;
-    border-right: 1px solid #828485;
+    border-right: 1px solid #e8ebe4;
 }
 .active img{
     border-radius: 50%;
-    width: 50px;
+    width: 45px;
+    margin-left: 20px;
 }
 .active{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    padding-right: 5%;
-    padding-left: 8%;
-    border-top: 3px solid #828485;
-    border-left: 1px solid #828485;
+    width: 100%;
+    border-top: 2px solid #e8ebe4;
+    border-left: 1px solid #e8ebe4;
 }
 .active-user{
     display: flex;
@@ -45,24 +45,26 @@ body{
 .datos-usuario p{
     margin-top: 0;
 }
-.iconos-laterales i {
-    padding: 0 5px;
+.iconos-laterales{
+    margin-right: 5%;
+    opacity: 0.5;
 }
 button{
     border: 0;
     background-color: #a491d2;
     color: white;
-    padding: 8%;
+    padding: 5%;
     width: 100%;
-    margin: 10%;
+    margin: 8%;
     font-size: 25px;
     font-weight: lighter;
 }
 .chat-btn{
-    border-top: 3px solid #828485;
-    border-left: 1px solid #828485;
+    border-top: 2px solid #e8ebe4;
+    border-left: 1px solid #e8ebe4;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .cada-chat img{
     border-radius: 50%;
@@ -73,11 +75,14 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-top: 3px solid #828485;
-    border-left: 1px solid #828485;
+    border-top: 2px solid #e8ebe4;
+    border-left: 1px solid #e8ebe4;
+}
+.chat-contacts{
+    width: 100%;
 }
 .container-chat{
-    background-color: #e8ebe4;
+    background-color: #e6e6e64f;
     flex-grow: 1.5;    
     display: flex;
     justify-content: space-around;
