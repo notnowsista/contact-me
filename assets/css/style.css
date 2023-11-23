@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     display: flex;
@@ -10,6 +11,8 @@ body{
     align-items: center;
     flex-direction: column;
     flex: 0 0 20%;
+    border-top: 3px solid #e8ebe4;
+    border-left: 3px solid #e8ebe4;
 }
 .active img{
     border-radius: 50%;
@@ -17,22 +20,28 @@ body{
 }
 .active{
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     padding-right: 5%;
     padding-left: 8%;
-    border-bottom: 2px solid #e8ebe4;
-    border-right: 2px solid #e8ebe4;
+    border-bottom: 3px solid #e8ebe4;
+    border-right: 3px solid #e8ebe4;
 }
 .active-user{
     display: flex;
     align-items: center;
 }
+.active-user p{
+    font-size: 14px;
+    color: #828485;
+}
 .datos-usuario{
     padding-left: 5%;
+    flex-grow: 2;
 }
 .datos-usuario h2{
-    margin-bottom: 0;
+    margin-bottom: 2%;
 }
 .datos-usuario p{
     margin-top: 0;
@@ -47,25 +56,27 @@ button{
     padding: 8%;
     width: 100%;
     margin: 10%;
+    font-size: 25px;
+    font-weight: lighter;
 }
 .chat-btn{
-    border-bottom: 2px solid #e8ebe4;
-    border-right: 2px solid #e8ebe4;
+    border-bottom: 3px solid #e8ebe4;
+    border-right: 3px solid #e8ebe4;
     display: flex;
     justify-content: center;
 }
 .cada-chat img{
     border-radius: 50%;
     width: 60px;
+    margin-left: 5%;
 }
-
-
-
-
-
-
-
-
+.cada-chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid #e8ebe4;
+    border-right: 3px solid #e8ebe4;
+}
 .container-chat{
     background-color: #e8ebe4;
     flex-grow: 1.5;    
@@ -79,7 +90,18 @@ button{
     align-items: center;
     text-align: center;
 }
+.card h1{
+    font-size: 55px;
+    margin-bottom: 0;
+}
+.card p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    font-weight: 500;
+    color: #444749;
+}
 .card img{
     width: 400px;
     border-radius: 5%;
+    margin-top: 0;
 }
